@@ -37,7 +37,7 @@ const Form = (props) => {
         onChange={(e) => setIsbn(e.target.value)}
       />
       <button tabIndex="0" type="submit">
-        {currentBookId !== null ? "Add" : "Update"}
+        {currentBookId !== null ? "Update" : "Add"}
       </button>
       <>
         {currentBookId !== null && <button onClick={cancelEdit}>Cancel</button>}
