@@ -88,7 +88,7 @@ function App() {
           setAuthor={setAuthor}
           isbn={isbn}
           setIsbn={setIsbn}
-          currentBookId={setCurrentBookId}
+          currentBookId={currentBookId}
           handleSubmit={handleSubmit}
           cancelEdit={cancelEdit}
         />
